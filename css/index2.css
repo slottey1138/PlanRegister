@@ -1,0 +1,83 @@
+body, html,h3 {
+  margin: 0;
+  padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.btn-menu {
+  color: rgb(60, 62, 61);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.2em;
+}
+.img-user{
+  width: 100%;
+  height: 300px;
+}
+.container{
+  color: #036;
+}
+.id{
+  color: #036;
+  line-height: 1.6em;
+  font-size: 1.4em;
+}
+.show-user{
+  color: red;
+}
+.btn-savegpa{
+  padding: 10px 15px 10px 15px;
+}
+.btn-savegpa:hover{
+  text-decoration: none;
+}
+.btn-year1{
+  margin-left: 110px;
+  padding: 10px 25px 10px 25px;
+  text-align: center;
+}
+.btn-year{
+  padding: 10px 25px 10px 25px;
+  text-align: center;
+  margin-left: 20px;
+}
+div.tab {
+    float: left;
+    background-color: #f1f1f1;
+    width: 20%;
+    height: auto;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #dcdcdc;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #3366FF;
+    color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 5px 10px 5px 10px;
+    width: 80%;
+    border-left: none;
+    height: auto;
+}
